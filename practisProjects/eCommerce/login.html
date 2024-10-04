@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AddKart Login</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <header>
+        <div id="hero">
+            <h1 id="title">AddKart</h1>
+            <p id="subTitle">Your Home Needs</p>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="signup.html">SignUp</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <form action="http://localhost:3000/users/login" id="loginForm" method="post">
+            <h2>AddKart Login</h2>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </main>
+</body>
+</html>

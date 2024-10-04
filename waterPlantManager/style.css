@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+
+.container {
+    height: 90vh;
+    width: 40%;
+    min-width: 400px;
+    border: 2px solid grey;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.header {
+    width: 80%;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.menu {
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+    border: 1px solid #333f;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu .menu-bar {
+    height: 5px;
+    width: 80%;
+    background-color: #333;
+}
+
+.undo {
+    font-size: 2rem;
+    padding: 2px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #333f;
+    border-radius: 5px;
+}
+
+.items {
+    margin: 2.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items .item {
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.items .item:last-child {
+    margin-bottom: 0;
+}
+
+.items .item .itemInput  input{
+    margin-bottom: 0.75rem;
+    font-size: 1.5rem;
+    width: 8rem;
+}
+
+
+.items .item .itemButton {
+    font-size: 2rem;
+    width: 10rem;
+}
+
+.items .item .itemInput .inpCtrls {
+    padding: 5px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background-color: grey;
+    color: whitesmoke;
+    border: 1px solid #333f;
+    border-radius: 50%;
+}
+
+
+.container .credit {
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    display: flex;
+}
+
+.container .credit input {
+    margin-left: 1rem;
+    font-size: 2rem;
+    width: 5rem;
+}
+
+.container .report span:first-child{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.container .report span:last-child {
+    margin-left: 0.5rem;
+    font-size: 3rem;
+}

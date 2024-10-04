@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ddd;
+    border-bottom: 2px solid #777;
+    position: fixed;
+    top: 0;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#hero {
+    margin-left: 2rem;
+    padding: 5px;
+}
+
+#hero #title{
+    font-family: cursive;
+    font-size: 2rem;
+    
+}
+
+#hero #subTitle {
+    padding: 0rem;
+    font-family: monospace;
+}
+
+header nav * {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-family: sans-serif;
+}
+
+main {
+    height: 100%;
+    margin-top: 10vh;
+    display: flex;
+    
+}
+
+#filterSearch {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    border-right: 2px solid #333;
+    position: fixed;
+    height: 100%;
+    width: 14.5vw;
+}
+
+#filterSearch ul {
+    list-style-type: none;
+}
+
+#sortBy {
+    margin-top: 5rem;
+}
+
+#products {
+    margin-top: 1rem;
+    margin-left: 15vw;
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.product {
+    padding: 0.5rem;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+}
+
+.product form {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product .title {
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.product .description {
+    padding: 0.5rem;
+    word-spacing: 5px;
+}
+
+.product form * {
+    opacity: 0.8;
+}
+
+.product form *:hover {
+    cursor: pointer;
+}
+
+@media (width > 1000px) {
+    header nav {
+        width: 40%;
+    }
+}
+
+@media (width < 400px) {
+    header {
+        flex-direction: column;
+    }
+    header nav {
+        width: 100%;
+        margin: 5px 0;
+    }
+    header nav a {
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+}

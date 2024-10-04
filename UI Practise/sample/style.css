@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #010048;
+    color: whitesmoke;
+}
+
+header nav {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header a {
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: yellow;
+}
+
+main {
+    background-color: yellow;
+    height: 90%;
+}

@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ddd;
+    border-bottom: 2px solid #777;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#hero {
+    margin-left: 2rem;
+    padding: 5px;
+}
+
+#hero #title{
+    font-family: cursive;
+    font-size: 2rem;
+    
+}
+
+#hero #subTitle {
+    padding: 0rem;
+    font-family: monospace;
+}
+
+header nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-family: sans-serif;
+}
+
+#productsToBuyContainer {
+    width: 80%;
+    height: 60%;
+    background-color: grey;
+}
+main {
+    height: 90%;
+    width: 100%;
+    border: 1px solid;
+}

@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#hero {
+    height: 100vh;
+    background-image: url(images//heroImage.png);
+}
+
+header {
+    padding: 1rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav a {
+    color: white;
+    font-style: italic;
+}
+
+#heroDisplay img {
+   position: absolute;
+   top: 250px;
+   left: 400px;
+}
+
+#history {
+    height: 1246px;
+    background-image: url(images/peak.png);
+    position: relative;
+}
+
+#history header {
+    background-color: #fff;
+}
+
+#history header nav a{
+    color: #000;
+}
+
+#historyDetails {
+    width: 400px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    font-style: italic;
+}
+
+#historyDetails h1 {
+    font-size: 2rem;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AddKart-Signup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/contact.css">
+    
+</head>
+<body>
+    <header>
+        <div id="hero">
+            <h1 id="title">AddKart</h1>
+            <p id="subTitle">Your Home Needs</p>
+        </div>
+        <nav>
+            <a href="login.html">Login</a>
+            <a href="signup.html">signUp</a>
+            <a href="buyingPage.html">
+                <i class="fa-solid fa-cart-shopping"></i> {0}</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <form action="/users" id="contactForm" method="post">
+            <h2>Contact AddKart</h2>
+            <div>
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName" required>
+            </div>
+            <div>
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName" required>
+            </div>
+            <div>
+                <label for="mobileNumber">Mobile Number</label>
+                <input type="number" name="mobileNumber" id="mobileNumber" required>
+            </div>
+            <div>
+                <label for="userEmail">Email</label>
+                <input type="email" name="userEmail" id="userEmail" required>
+            </div>
+            <div>
+                <label for="remarks">Remarks</label>            
+                <textarea name="remarks" id="remarks" cols="30" rows="5" placeholder="Enter your problem or remark here...."></textarea>
+            </div>
+
+            <button type="submit">Send Remarks</button>
+        </form>
+    </main>
+</body>
+</html>

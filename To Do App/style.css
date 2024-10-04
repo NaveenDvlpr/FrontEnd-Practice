@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    margin: 1rem;
+    text-align: center;
+}
+
+#appTitle {
+    font-size: 3rem;
+}
+
+main {
+    text-align: center;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+#addField, #addButton {
+    height: 1.5rem;
+}
+
+#list {
+    margin: 1rem;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+#list li {
+    margin: 0.5rem;
+}
